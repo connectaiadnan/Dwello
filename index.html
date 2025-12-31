@@ -24,10 +24,10 @@
 
 <body>
   <!-- header starts here -->
-   <header>
+  <header>
     <div class="container">
       <!-- navber start -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid px-0">
           <!-- logo -->
           <a class="navbar-brand" href="index.html">
@@ -38,8 +38,8 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- menu -->
-          <div class="collapse navbar-collapse menu" id="nav_cus">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse " id="nav_cus">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
@@ -53,75 +53,80 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-              <li class="nav-item btn header_btn">
-                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass header_img"></i></a>
-              </li>
-              <li class="nav-item btn header_btn">
-                <a class="nav-link" href="#"><i class="fa-regular fa-user header_img"></i></a>
-              </li>
-              <li class="nav-item btn header_btn">
-                <a class="btn btn_cm btn_menu" href="#">Sign up</a>
-              </li>
+            <!-- problem start-->
+            <li class="nav-item btn header_btn">
+              <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass header_img"></i></a>
+            </li>
+            <li class="nav-item btn header_btn">
+              <a class="nav-link" href="#"><i class="fa-regular fa-user header_img"></i></a>
+            </li>
+            <li class="nav-item btn header_btn">
+              <a class="btn cm_btn btn_menu" href="#">Sign up</a>
+            </li>
+            <!-- problem ends -->
           </div>
         </div>
       </nav>
       <!-- navber end -->
     </div>
-   </header>
+  </header>
   <!-- header ends here -->
 
   <!-- home starts here -->
-   <section class="home c_pd">
+  <section class="home c_pd">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
+        <div class="col-xxl-5 col-xl-5 col-lg-5 order-lg-1 order-2 col-md-12 col-12">
           <div class="home_text">
             <h1 class="home_h1 mb-0">Find Your Dream Home</h1>
-            <p class="home_p1 mb-0">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
-            <button class="btn btn_cm btn_menu" type="button">Sign up</button>
+            <p class="home_p1 mb-0">Explore our curated selection of exquisite properties meticulously tailored to your
+              unique dream home vision</p>
+            <button class="btn cm_btn btn_menu" type="button">Sign up</button>
           </div>
         </div>
-        <div class="col-lg-7">
+        <div class="col-xxl-7 col-xl-7 col-lg-7 order-lg-2 order-1 col-md-12 col-12">
           <div class="home_img">
-            <img class="" src="img/home.png" alt="">
+            <img src="img/home.png" alt="">
           </div>
         </div>
       </div>
+      <!-- problem start-->
       <div class="row justify-content-center">
-          <div class="search_container justify-content-evenly">
-              <!-- single item start -->
-              <div class="col-lg-3 input_group">
-                <input type="text" placeholder="Location">
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <!-- single item end -->
-              <!-- single item start -->
-              <div class="col-lg-3 input_group">
-                <input type="text" placeholder="Type">
-                <i class="fa-solid fa-house"></i>
-              </div>
-              <!-- single item end -->
-              <!-- single item start -->
-              <div class="col-lg-3 input_group">
-                <input type="number" placeholder="Price Range">
-                <i class="fa-solid fa-dollar-sign"></i>
-              </div>
-              <!-- single item end -->
-              <!-- single item start -->
-              <div class="col-lg-3 ">
-                <li class="nav-item btn header_btn">
-                  <a class="btn btn_cm btn_h2" href="#">Sign up</a>
-                </li>
-              </div>
-              <!-- single item end -->
+        <div class="search_container justify-content-evenly">
+          <!-- single item start -->
+          <div class="col-lg-3 col-md-3 col-12 input_group">
+            <input type="text" placeholder="Location" required>
+            <i class="fa-solid fa-location-dot"></i>
           </div>
+          <!-- single item end -->
+          <!-- single item start -->
+          <div class="col-lg-3 col-md-3 col-12 input_group">
+            <input type="text" placeholder="Type" required>
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <!-- single item end -->
+          <!-- single item start -->
+          <div class="col-lg-3 col-md-3 col-12 input_group">
+            <input type="number" placeholder="Price Range" required>
+            <i class="fa-solid fa-dollar-sign"></i>
+          </div>
+          <!-- single item end -->
+          <!-- single item start -->
+          <div class="col-lg-3 col-md-3 col-12 ">
+            <li class="nav-item btn ">
+              <a class="btn cm_btn btn_h2" href="#">Sign up</a>
+            </li>
+          </div>
+          <!-- single item end -->
+        </div>
       </div>
+      <!-- problem ends -->
     </div>
-   </section>
+  </section>
   <!-- home ends here -->
 
   <!-- houses start here -->
-   <section class="houses c_pd">
+  <section class="houses c_pd">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
@@ -129,26 +134,27 @@
             <img src="img/Mask group.png" alt="">
           </div>
         </div>
-        <div class="offset-1 col-lg-6">
+        <div class="offset-lg-1 col-lg-6">
           <div class="houses_text">
-            <h2 class="houses_h1 mb-0">We Help You To Find Your Dream Home</h2>
-            <p class="houses_p1 mb-0">From cozy cottages to luxurious estates, our dedicated team guides you through every step of the journey, ensuring your
-            dream home becomes a reality</p>
+            <h2 class="houses_h1 mb-0 cm_h2">We Help You To Find Your Dream Home</h2>
+            <p class="houses_p1 mb-0">From cozy cottages to luxurious estates, our dedicated team guides you through
+              every step of the journey, ensuring your
+              dream home becomes a reality</p>
             <div class="row">
               <!-- single item start -->
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-sm-4 col-4">
                 <h2 class="mb-0 houses_h2">8K+</h2>
                 <p class="mb-0 houses_p2">Houses Available</p>
               </div>
               <!-- single item start -->
               <!-- single item start -->
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-sm-4 col-4">
                 <h2 class="mb-0 houses_h2">6K+</h2>
                 <p class="mb-0 houses_p2">Houses Sold</p>
               </div>
               <!-- single item start -->
               <!-- single item start -->
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-sm-4 col-4">
                 <h2 class="mb-0 houses_h2">2K+</h2>
                 <p class="mb-0 houses_p2">Trusted Agents</p>
               </div>
@@ -158,24 +164,25 @@
         </div>
       </div>
     </div>
-   </section>
+  </section>
   <!-- houses ends here -->
 
   <!-- support starts here -->
-   <section class="support c_pd">
+  <section class="support c_pd">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="support_text text-center">
             <h2 class="cm_h2 mb-0">Why Choose Us</h2>
-            <p class="cm_p mb-0">Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched Personalized Service</p>
+            <p class="cm_p mb-0">Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched
+              Personalized Service</p>
           </div>
         </div>
       </div>
       <div class="row">
         <!-- single item start -->
         <div class="col-lg-3">
-          <div class="support_content"> 
+          <div class="support_content">
             <div class="support_content_list">
               <i class="fa-solid fa-location-dot"></i>
               <h3 class="support_h3 mb-0">Expert Guidance</h3>
@@ -183,10 +190,10 @@
             </div>
           </div>
         </div>
-          <!-- single item end -->
+        <!-- single item end -->
         <!-- single item start -->
         <div class="col-lg-3">
-          <div class="support_content"> 
+          <div class="support_content">
             <div class="support_content_list">
               <i class="fa-solid fa-user-pen"></i>
               <h3 class="support_h3 mb-0">Personalized Service</h3>
@@ -194,10 +201,10 @@
             </div>
           </div>
         </div>
-          <!-- single item end -->
+        <!-- single item end -->
         <!-- single item start -->
         <div class="col-lg-3">
-          <div class="support_content"> 
+          <div class="support_content">
             <div class="support_content_list">
               <i class="fa-solid fa-clipboard-list"></i>
               <h3 class="support_h3 mb-0">Transparent Process</h3>
@@ -205,10 +212,10 @@
             </div>
           </div>
         </div>
-          <!-- single item end -->
+        <!-- single item end -->
         <!-- single item start -->
         <div class="col-lg-3">
-          <div class="support_content"> 
+          <div class="support_content">
             <div class="support_content_list">
               <i class="fa-solid fa-handshake"></i>
               <h3 class="support_h3 mb-0">Exceptional Support</h3>
@@ -216,24 +223,25 @@
             </div>
           </div>
         </div>
-          <!-- single item end -->
+        <!-- single item end -->
       </div>
     </div>
-   </section>
+  </section>
   <!-- support ends here -->
 
   <!-- service starts here -->
-   <section class="service c_pd">
+  <section class="service c_pd">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="service_text text-center">
-            <h2 class="mb-0">Our Popular Residences</h2>
+            <h2 class="mb-0 cm_h2">Our Popular Residences</h2>
           </div>
         </div>
       </div>
       <div class="row m-0">
         <!-- single item start -->
+        <!-- problem start-->
         <div class="col-lg-4">
           <div class="service_content">
             <div class="service_img">
@@ -269,7 +277,7 @@
               <div class="sf_last">
                 <ul class="list-inline mb-0 ">
                   <li class="list-inline-item float-start">
-                    <a class="btn btn_cm" href="">Sign up</a>
+                    <a class="btn cm_btn" href="">Sign up</a>
                   </li>
                   <li class="list-inline-item float-end">
                     <p class="mb-0 service_p2">$2,500,000</p>
@@ -279,93 +287,199 @@
             </div>
           </div>
         </div>
+        <!-- problem end-->
         <!-- single item start -->
       </div>
     </div>
-   </section>
+  </section>
   <!-- service ends here -->
 
   <!-- agents starts here -->
-   <section class="agents c_pd">
+  <section class="agents c_pd">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="agents_text text-center">
-            <h2 class="mb-0">What People Say About Dwello</h2>
+            <h2 class="mb-0 cm_h2">What People Say About Dwello</h2>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
-          <div class="agents_content">
-            <div class="agents_img">
-              <img class="w-100" src="img/agents1.png" alt="">
-            </div>
-            <div class="agents_footer">
-              <div class="agents_first">
-                <div class="agent_img">
-                  <img src="img/agent1.png" alt="">
-                </div>
-                <h3>Sarah Nguyen</h3>
-                <p>San Francisco</p>
-                <div class="agents_reating">
-                  <ul class="list-inline">
-                    <li class="list-inline-item">
-                      <i></i>
-                    </li>
-                    <li class="list-inline-item">
-                      <i class="fa-solid fa-star"></i>
-                      <span>5.0</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="agents_last">
-                <p>Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in
-                the Bay Area. Their professionalism and attention to detail are unmatched.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
         <div class="col-lg-12">
-          <div class="agents_carousel">
-                  <!-- carousel start -->
-<!-- Bootstrap Carousel -->
-  <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">Slide 1</div>
-      <div class="carousel-item">Slide 2</div>
-      <div class="carousel-item">Slide 3</div>
-    </div>
-  </div> -->
+          <!-- carousal -->
+          <div class="carousel slide" id="carousel">
+            <!-- indicators -->
+            <div class="carousel-indicators c_ind mt-3 carousel_btn_wrapper">
+              <button type="button" class="active carousel_btn" data-bs-target="#carousel" data-bs-slide-to="0"
+                aria-current="true" aria-label="slide 1">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button type="button" class="carousel_btn" data-bs-target="#carousel" data-bs-slide-to="1"
+                aria-label="slide 2">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+            <!-- inner -->
+            <div class="carousel-inner">
+              <!-- item start -->
+              <div class="carousel-item carousel_item active">
+                <div class="row">
+                  <!-- single item start -->
+                  <div class="col-lg-4">
+                    <div class="agents_content">
+                      <div class="agents_img">
+                        <img class="w-100" src="img/agents1.png" alt="">
+                      </div>
+                      <div class="agents_footer">
+                        <div class="agent_first">
+                          <div class="agent_img">
+                            <img class="agent1_img" src="img/agent1.png" alt="">
+                            <div class="agents_reating">
+                              <i class="fa-solid fa-star"></i>
+                              <span>5.0</span>
+                            </div>
+                          </div>
+                          <div class="agent_text">
+                            <h5 class="m-0 agent_h5">Sarah Nguyen</h5>
+                            <div class="agent_name">
+                              <ul class="list-inline m-0 ">
+                                <li class="list-inline-item float-start">
+                                  <p class="m-0 agent_p">San Francisco</p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="agents_last">
+                          <p class="">Dwello truly cares about their clients. They listened to my needs and preferences
+                            and helped me
+                            find the perfect home in
+                            the Bay Area. Their professionalism and attention to detail are unmatched.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- single item end -->
+                </div>
+              </div>
+              <!-- item end -->
+            </div>
 
-<!-- Custom Buttons -->
-  <!-- <div class="carousel-btn-wrapper">
-    <button class="carousel-btn" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <i class="fa-solid fa-angle-left"></i>
-    </button>
-
-    <button class="carousel-btn" data-bs-target="#myCarousel" data-bs-slide="next">
-      <i class="fa-solid fa-angle-right"></i>
-    </button>
-  </div> -->
-
-            <!-- carousel end -->
           </div>
         </div>
       </div>
     </div>
-   </section>
+  </section>
   <!-- agents ends here -->
+
   <!-- contact starts here -->
+  <section class="contact c_pd">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="cm_text text-center">
+            <h2 class="cm_h2 contact_h2">Do You Have Any Questions?
+              Get Help From Us</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <i class="fa-regular fa-circle-check"></i>
+            </li>
+            <li class="list-inline-item">
+              <p class="contact_cm_p">Chat live with our support team</p>
+            </li>
+            <li class="list-inline-item">
+              <i class="fa-regular fa-circle-check"></i>
+            </li>
+            <li class="list-inline-item">
+              <p class="contact_cm_p">Browse our FAQ </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <i class="fa-solid fa-envelope"></i>
+          <input name="input" class="footer_input" type="email" placeholder="Enter your email address...">
+          <button class="btn cm_btn btn_menu" type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- contact ends here -->
   <!-- footer starts here -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="footer_img">
+            <img class="img-fluid" src="img/logo.png" alt="">
+          </div>
+          <p class="footer_p">Bringing you closer to your dream home, one click at a time.</p>
+        </div>
+        <!-- item 1 start -->
+        <div class="col-lg-2 footer_cm">
+          <h4 class="footer_h4">About</h4>
+          <ul class="list-unstyled footer_link">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
+        <!-- item 1 end -->
+        <!-- item 1 start -->
+        <div class="col-lg-2 footer_cm">
+          <h4 class="footer_h4">Support</h4>
+          <ul class="list-unstyled footer_link">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <!-- item 1 end -->
+        <!-- item 1 start -->
+        <div class="col-lg-2 footer_cm">
+          <h4 class="footer_h4">Find Us</h4>
+          <ul class="list-unstyled footer_link">
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+        <!-- item 1 end -->
+        <!-- item 1 start -->
+        <div class="col-lg-2 footer_cm">
+          <h4 class="footer_h4">Our Social</h4>
+          <ul class="list-unstyled footer_link">
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+              <a href="#">Instagram</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-facebook-f"></i>
+              <a href="#">Facebook</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-x-twitter"></i>
+              <a href="#">Twitter (x)</a>
+            </li>
+          </ul>
+        </div>
+        <!-- item 1 end -->
+      </div>
+    </div>
+  </footer>
   <!-- footer ends here -->
 
   <!-- js links -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
