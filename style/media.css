@@ -1,6 +1,18 @@
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /* header start */
+.c_pd {
+    padding: 0px;
+}
+.cm_btn {
+  font-size: 14px;
+}
+.header_action {
+  align-items: end;
+}
+/* header start here */
+.menu {
+  gap: 0;
+}
 .menu ul li a {
   padding: 10px 5px 0px !important;
   font-size: 14px;
@@ -15,7 +27,7 @@
   padding-bottom: 25px;
 }
 .search_container {
-    padding: 30px 0px;
+    padding: 20px 0px;
     border-radius: 0px;
     display: grid;
     width: 100%;
@@ -23,6 +35,10 @@
 .input_group {
   border-radius: 10px;
   padding: 10px 10px;
+  justify-content: center;
+}
+.home_center{
+  justify-content: center;
 }
 .home_h1{
   padding: 0px;
@@ -31,11 +47,14 @@
 }
 .home_p1 {
   padding: 10px 0px 20px 0px;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
 }
 .home_img img {
   padding: 0px;
+}
+.input_group input {
+  font-size: 12px;
 }
 /* house start */
 .houses {
@@ -48,7 +67,7 @@
 }
 .houses_p1 {
   padding: 5px 0px 10px 0px;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
 }
 .houses_h2 {
@@ -67,45 +86,224 @@
     justify-content: center;
 }
 .c_pd {
-    padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 .cm_h2 {
+  margin-top: 20px;
   padding: 0px;
   font-size: 22px;
   text-align: center;
+}
+/* support start here */
+.support .cm_p {
+  padding: 10px 0px 15px;
+  font-size: 12px;
+}
+.support_content_list {
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.support_content_list i {
+  padding: 20px 25px;
+  font-size: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.support_content_list p {
+  text-align: center;
+}
+/* service start here */
+.service_text h2 {
+  padding-bottom: 20px;
+}
+.service_content {
+  margin-bottom: 20px;
+}
+.service_p1 {
+  font-size: 14px;
+}
+.service_p2 {
+  padding: 10px 0px;
+  font-size: 12px;
+}
+.service_i1 {
+  font-size: 18px;
+}
+.service_footer_i {
+  font-size: 13px;
+}
+/* agents start here */
+.agents_title h2 {
+  padding-bottom: 25px;
+}
+/* contact start here */
+.contact_input {
+  width: 100%;
+}
+
+.btn_menu {
+  margin-top: 10px;
+  width: 100%;
+}
+/* footer start here */
+.footer_p {
+  padding-right: 0;
 }
 }
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* header start */
+body {
+  font-size: 14px;
+}
+.c_pd {
+  padding: 25px 0px;
+}
+.cm_h2 {
+  font-size: 30px;
+}
+/* header start here */
+.menu {
+  gap: 0;
+}
+.header_action {
+  align-items: end;
+}
 .menu ul li a {
   padding: 10px 5px 0px !important;
   font-size: 14px;
   text-align: right;
+}
+.input_group input {
+  font-size: 14px;
 }
 .header_btn {
   display: flex;
   justify-content: end;
 }
 /* home start */
+.home_center {
+  justify-content: center;
+}
 .home_h1{
   padding: 0px;
   font-size: 40px;
   text-align: center;
 }
 .home_p1 {
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 30px 0px;
   text-align: center;
 }
 .home_img img {
   padding: 0px;
 }
+/* houses start here */
+.houses_h2 {
+  font-size: 25px;
+}
+.houses_p1 {
+  text-align: center;
+  padding: 10px 0 15px;
+}
+.houses_p2 {
+  font-size: 12px;
+}
+/* support start here */
+.support .cm_p {
+  padding: 5px 0px 20px;
+}
+.support_text h2{
+  padding-bottom: 25px;
+}
+
+.support_content_list {
+  margin: 0px 0px 20px 0px;
+  align-items: baseline;
+}
+
+.support_content_list i {
+  padding: 20px 25px;
+  font-size: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.support_content_list p {
+  text-align: center;
+}
+/* service start here */
+.service_content {
+  margin: 15px 0px;
+}
+.service_text h2 {
+  padding-bottom: 25px;
+}
+.service_p2 {
+  padding: 10px 0px;
+}
+/* agents start here */
+.agents_title h2{
+  padding-bottom: 25px;
+}
+/* contact start here */
+.contact_title h2{
+  padding: 0 0 25px 0;
+}
+.contact_input {
+  width: 500px;
+}
+
+.btn_menu {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+/* footer start here */
+.footer {
+  padding: 30px 25px 20px 25px;
+}
+.footer_img {
+  text-align: center;
+}
+.footer_p {
+  padding-right: 0px;
+  text-align: center;
+}
+.footer_h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.footer_link li a {
+  font-size: 12px;
+}
+.footer_link li {
+  margin-bottom: 15px;
+}
 }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-/* header start */
+body {
+  font-size: 14px;
+}
+.c_pd {
+  padding: 30px 0px;
+}
+.cm_h2 {
+  font-size: 30px;
+}
+/* header start here */
+.header_action {
+  align-items: end;
+}
+.menu {
+  gap: 0;
+}
 .menu ul li a {
   padding: 10px 5px 0px !important;
   font-size: 15px;
@@ -116,19 +314,88 @@
   justify-content: end;
 }
 /* home start */
-.home_h1{
-  padding: 0px;
-  font-size: 40px;
-  text-align: center;
+.home_center {
+  justify-content: center;
 }
 .home_img img {
-  padding: 0px;
+  padding-top: 0;
+}
+.home_h1{
+  padding-top: 40px;
+  font-size: 35px;
+  text-align: center;
 }
 .home_p1 {
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+.search_container {
+  padding: 20px 10px;
+}
+.input_group {
+  border-radius: 10px;
+  padding: 10px 10px;
+  justify-content: center;
+}
+/* houses start here */
+.houses_h1 {
+  text-align: center;
+}
+.houses_text {
+  padding-bottom: 10px;
+}
+.houses_information {
+  text-align: center;
+}
+.houses_h2 {
+  font-size: 25px;
+  padding: 10px 0px 0px;
+}
+.houses_p1 {
+  text-align: center;
+}
+/* support start here */
+.cm_p {
+  padding: 10px 0 50px;
+}
+.support .cm_p {
+  padding: 10px 0px 10px;
+}
+.support_content_list {
+  margin: 15px 0px;
+}
+/* service start here */
+.service_text h2 {
+  padding-bottom: 25px;
+}
+.service_content {
+  margin: 20px;
+}
+.service_p2 {
+  padding: 10px 0px;
+}
+/* agents start here */
+.agent_h5 {
+  font-size: 18px;
+}
+/* contact start here */
+.contact_title h2{
+  padding: 0 100px 20px 100px;
+  font-size: 30px;
+}
+/* footer start here */
+.footer_img {
+  padding-bottom: 10px;
   text-align: center;
 }
 
+.footer_p {
+  padding-right: 0px;
+  text-align: center;
+}
+.footer {
+  padding: 24px 25px 25px 25px;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -141,15 +408,18 @@
 .home_h1 {
   padding: 130px 130px 0px 0px;
   font-size: 45px;
-  }
+}
 .home_p1 {
   font-size: 15px;
-  }
-  
+}
 }
 
 /* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  /* header start here */
+.menu {
+  gap: 45px;
+}
   /* home start */
 .home_h1 {
   padding: 150px 130px 0px 0px;
@@ -161,6 +431,6 @@
 }
 /* houses start */
 .houses_h1 {
-    padding: 0px 150px 0px 0px;
+  padding: 0px 150px 0px 0px;
 }
 }
