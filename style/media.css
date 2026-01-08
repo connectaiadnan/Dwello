@@ -451,6 +451,25 @@ body {
 .home_p1 {
   font-size: 15px;
 }
+/* houses start here */
+.houses_h1 {
+  text-align: start;
+}
+/* support start here */
+.support_h3 {
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2B1B12;
+}
+/* agents start here */
+.agents_title h2 {
+  padding: 0 350px 50px;
+}
+/* contact start here */
+.contact_title h2 {
+  padding: 0px 300px 20px;
+}
 }
 
 /* Extra extra large devices (large desktops, 1400px and up) */
