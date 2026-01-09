@@ -439,11 +439,14 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  
+/* houses start here */
+.houses_h1 {
+  text-align: start;
+}
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-/* home start */
+/* home start here*/
 .home_h1 {
   padding: 130px 130px 0px 0px;
   font-size: 45px;
